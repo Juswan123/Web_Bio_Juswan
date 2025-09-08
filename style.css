@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./asset/teknik_unhas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 380px;
+    margin: 20px auto;
+    background: #b54b4b;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+}
+header img{
+    width: 60px;
+    display: block;
+    margin: 0 auto 5px auto;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.name{
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.name h2{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 33.5px;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.biodata {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+}
+.info {
+    flex: 2;
+    min-width: 0;
+}
+.info p{
+    margin: 5px 0;
+    white-space: nowrap;
+}
+.photo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.photo img{
+    width: 25%;
+    max-width: 50%;
+    border-radius: 5px;
+}
+.favorite{
+    margin-top: 0px;
+    background: #b54b4b;
+    padding: 0
+
+}
+.favorite h2{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Anton',sans-serif;
+    font-size: 33.5px;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    letter-spacing: 1px;
+    
+}
+
+.favorite .content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.favorite .vinyl{
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.favorite .vinyl img{
+    width: 70px;
+    display: block;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+.favorite .vinyl p{
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+}
+
+.favorite .vinyl audio {
+    width: 100%;
+    margin-top: 5px;
+}
